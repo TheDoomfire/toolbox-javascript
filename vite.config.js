@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: 'src/index.js',
       formats: ['es', 'cjs'],
-      fileName: (format) => format === 'es' ? 'index.js' : 'index.cjs'
+      fileName: (format) => format === 'es' ? 'index.es.js' : 'index.cjs.js'
     },
     rollupOptions: {
       plugins: [nodeResolve()],

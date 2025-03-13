@@ -9,8 +9,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.cjs.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./objects": {
       "import": "./dist/objects/index.js",
