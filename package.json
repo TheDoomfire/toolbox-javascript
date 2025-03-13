@@ -1,6 +1,6 @@
 {
   "name": "@doomfire/toolbox-javascript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A toolbox of structured javascript code that I use in my projects.",
   "type": "module",
   "scripts": {
@@ -22,5 +22,10 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "vite": "^6.2.1",
     "vite-plugin-dts": "^4.5.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
