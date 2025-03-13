@@ -45,6 +45,8 @@ The idea is that I will improve these whenever I need them.
 - Create - Create a new object.
 
 
+## Create NPM package.
+
 
 ## Structure:
 
