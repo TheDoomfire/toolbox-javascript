@@ -1,12 +1,12 @@
 {
   "name": "@doomfire/toolbox-javascript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A toolbox of structured javascript code that I use in my projects.",
   "type": "module",
   "scripts": {
     "build": "vite build",
     "prepublishOnly": "pnpm build",
-    "release": "pnpm version patch --no-git-tag-version && pnpm build && pnpm publish"
+    "release": "pnpm version patch --no-git-tag-version && pnpm build"
   },
   "exports": {
     ".": {
