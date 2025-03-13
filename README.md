@@ -45,7 +45,19 @@ The idea is that I will improve these whenever I need them.
 - Create - Create a new object.
 
 
-## Create NPM package.
+## Update NPM package.
+
+-  `pnpm version patch`
+    - Update version number.
+-  `pnpm build`
+    - Build the package.
+-  `pnpm publish`
+    - Publish the package.
+
+Testing:
+-  `pnpm pack`
+    - For creating local testing version.
+- cd to test project and do `pnpm install ./doomfire-toolbox-javascript-0.0.2.tgz`
 
 
 ## Structure:

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "prepublishOnly": "pnpm build"
+    "prepublishOnly": "pnpm build",
+    "release": "pnpm version patch --no-git-tag-version && pnpm build && pnpm publish"
   },
   "exports": {
     ".": {
