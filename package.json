@@ -1,0 +1,23 @@
+{
+  "name": "toolbox-javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "pnpm build"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./objects": {
+      "import": "./dist/objects/index.js",
+      "require": "./dist/objects/index.cjs"
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "vite": "^6.2.1"
+  }
+}
