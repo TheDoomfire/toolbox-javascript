@@ -1,0 +1,1 @@
+"use strict";class p{static find(c,s){const e=[];function i(o,l=[]){if(!(typeof o!="object"||o===null)){typeof s=="object"&&s!==null?o===s&&e.push({path:l,value:o,object:o}):o.hasOwnProperty(s)&&e.push({path:l.concat(s),value:o[s],object:o});for(const[t,f]of Object.entries(o))typeof f=="object"&&f!==null&&i(f,l.concat(t))}}return i(c),e}}module.exports=p;
