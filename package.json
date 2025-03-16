@@ -1,6 +1,6 @@
 {
   "name": "@doomfire/toolbox-javascript",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A toolbox of structured javascript code that I use in my projects.",
   "type": "module",
   "scripts": {
@@ -16,6 +16,10 @@
     "./objects": {
       "import": "./dist/objects/index.js",
       "require": "./dist/objects/index.cjs"
+    },
+    "./strings": {
+      "import": "./dist/strings/index.js",
+      "require": "./dist/strings/index.cjs"
     }
   },
   "devDependencies": {

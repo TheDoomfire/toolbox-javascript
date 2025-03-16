@@ -3,6 +3,19 @@
 This is a toolbox of javascript code that I use in my projects.
 The main goal is having very structured code, classes and functions that is fast to find and easy to use correctly.
 
+## TODO:
+
+helper function to grab the type of inputs.
+And nested type of input (if obj, list).
+And string, is it a string or a number?
+
+MAYBE: also find if its just a regex string?
+
+
+
+
+find(scope, target) 
+
 
 ## Why?
 
