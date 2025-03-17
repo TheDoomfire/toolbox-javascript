@@ -1,6 +1,6 @@
 {
   "name": "@doomfire/toolbox-javascript",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A toolbox of structured javascript code that I use in my projects.",
   "type": "module",
   "scripts": {
@@ -8,18 +8,11 @@
     "prepublishOnly": "pnpm build",
     "release": "pnpm version patch --no-git-tag-version && pnpm build"
   },
+  "main": "dist/index.js",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    },
-    "./objects": {
-      "import": "./dist/objects/index.js",
-      "require": "./dist/objects/index.cjs"
-    },
-    "./strings": {
-      "import": "./dist/strings/index.js",
-      "require": "./dist/strings/index.cjs"
     }
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
-import * as t from "./objects/index.js";
-import * as i from "./strings/index.js";
+import { default as r } from "./objects/object.utils.js";
+import { default as f } from "./strings/string.utils.js";
 export {
-  t as ObjectUtils,
-  i as StringUtils
+  r as ObjectUtils,
+  f as StringUtils
 };
